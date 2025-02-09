@@ -1,13 +1,13 @@
 extends CharacterBody3D
 
 
-var SPEED = 3.0
+var SPEED = 4.0
 const JUMP_VELOCITY = 4.5
 var cap_mouse =true
 var look_dir : Vector2
 @onready var camera = $Camera3D
-var horizontal_sensitivity = 0.1  
-var vertical_sensitivity = 0.005
+var horizontal_sensitivity = 0.1 
+var vertical_sensitivity = 0.009
 var bob_freq = 2
 var bob_amp = 0.05
 var t_bob = 0
